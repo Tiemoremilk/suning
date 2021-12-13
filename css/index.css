@@ -1,0 +1,268 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto; 
+    font-size: 14px;
+    font-family: Arial,Helvetica,STHeiTi,sans-serif;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#app{
+    
+    height: 44px;
+}
+img{
+    border-style: none;
+}
+#app ul{
+    margin: 0 auto;
+    padding: 0;
+}
+#app ul li{
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: #FFDB47;
+
+}
+#app ul li:nth-child(1){
+    width: 12%;
+}
+#app ul li:nth-child(1) img{
+    width: 18px;
+    vertical-align: middle;
+   
+}
+#app ul li:nth-child(2){
+    width: 76%;
+}
+#app ul li:nth-child(2) img{
+    width: 195px;
+    vertical-align: middle;
+    
+    }
+#app ul li:nth-child(3){
+    width: 12%;
+}
+#app ul li:nth-child(3) img{
+    width: 18px; 
+    vertical-align: middle;
+    
+    }
+/* 搜素 */
+#search_wrap{
+    
+    width: 100%;
+    overflow: hidden;
+    height: 50px;
+    top: 0;
+    background: #FFDB47;
+    z-index: 3;
+    min-width: 320px;
+    max-width: 640px;
+
+}
+.search{
+    height: 36px;
+    margin:8px  12px 0 12px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: relative;
+
+    
+}
+.search input{
+    position: absolute;
+    height: 32px;
+    left:33px;
+    width: 90%-12px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    color: #75758B;
+}
+.sou{
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    top: 9px;
+    left: 15px;
+}
+
+.sou img{    
+    width: 20px;
+    height: 20px;
+}
+
+.slide{
+ width: 100%;
+ height: 164px;
+ background-image: url(../images/indexb.png);
+background-size:  100% 100%;
+
+
+}
+.slide img{
+    display: block;
+    width: 90%;
+    border-radius: 15px;
+    margin: 0 5%;   
+    height: 164px;
+
+    
+}
+/* 主场推荐 */
+.home_rd{
+    width: 100%;
+}
+.home_rd img{
+width: 100%; 
+}
+.enter_wrapper {
+    padding: 0;
+    width: 100%;
+}
+.enter_wrapper  a{
+    float: left;
+    width: 20%;
+    margin-top: 8px;
+
+}
+.enter_wrapper  a img{
+    width: 60%;
+    margin-left: 20%;
+}
+.enter_wrapper  a span{
+    display: block;
+    text-align: center;
+    font-size: 14px; 
+    color: #666666;
+}
+
+.newImgFloor-content{
+width: 100%;
+overflow: hidden;
+}
+.newImgFloor-content a:nth-child(1){
+    width: 50%;
+}
+.newImgFloor-content a:nth-child(2){
+    width: 24.8%;
+}
+.newImgFloor-content a:nth-child(3){
+    width: 25%;
+}
+.newImgFloor-content a{
+    float: left;
+    margin-top: 25px;
+}
+.newImgFloor-content img{
+    display: block;
+    width: 100%;
+}
+
+.big_recommend{
+    width: 100%;
+    overflow: hidden;
+}
+
+.recomend{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    border-right: 1px solid rgb(214, 210, 210);
+}
+.recomend .title{
+    font-size: 14px;
+    color: #030303;
+    font-weight: bold;
+    margin: 9px 0 0 12px;
+}
+.recomend .des{
+    font-size: 12px;
+    color: #666666;
+    margin: 2px 0 0 12px;  
+}
+.recomend ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.recomend li{
+    width: 50%;
+    float: left;
+}
+.recomend li span{
+    display: block;
+    width: 100%;
+    color: crimson;
+    font-size: 12px;
+    text-align: center;
+}
+.recomend li img{
+width: 100%;
+display: block;
+}
+.click-area{
+    width: 100%;
+    /* text-align: center; */
+}
+
+#t{
+    position: fixed;
+    top: 400px;
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    z-index: 10;
+    /* display: none; */
+
+}
+.top{
+    
+    position: absolute;
+    right: 0;
+}
+
+
+/* 底部导航栏 */
+ .footer{
+    max-width:640px;
+    min-width: 320px;
+    box-sizing: content-box;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 199;
+    border-top: 1px solid #EEE;
+    background: #FFF;
+    transition: all .2s cubic-bezier(0, 0, 1, 1.16);
+}
+
+.footer a{
+    float: left;
+    display: block;
+    width: 20%;
+}
+.footer a img{
+    padding-left: 26%;
+    width: 48%;
+    vertical-align: middle;
+}
+.footer a span{
+    display: block;
+    text-align: center;
+    font-size: 12px; 
+    color: #030303;
+    font-weight: bold;
+}

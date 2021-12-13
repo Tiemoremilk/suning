@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7418",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "f0292",
+      "unicode_decimal": 983698
+    },
+    {
+      "icon_id": "145478",
+      "name": "清单",
+      "font_class": "qingdan",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "201099",
+      "name": "3.1待评价",
+      "font_class": "31daipingjia",
+      "unicode": "f01c7",
+      "unicode_decimal": 983495
+    },
+    {
+      "icon_id": "741897",
+      "name": "设置-)",
+      "font_class": "shezhi",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "2488826",
+      "name": "48银行卡-线性",
+      "font_class": "yinhangqia-xianxing",
+      "unicode": "e936",
+      "unicode_decimal": 59702
+    },
+    {
+      "icon_id": "4733753",
+      "name": "返回",
+      "font_class": "fanhui-copy",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "5119785",
+      "name": "会员码",
+      "font_class": "huiyuanmax",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "7090062",
+      "name": "售后",
+      "font_class": "shouhou",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "7781488",
+      "name": "待收货",
+      "font_class": "daishouhuo",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    }
+  ]
+}

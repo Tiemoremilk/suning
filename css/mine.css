@@ -1,0 +1,427 @@
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, STHeiTi, sans-serif;
+    background-color: #F2F2F2;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#head {
+    width: 100%;
+    height: 200px;
+    background-color: #FFDB47;
+}
+
+.title {
+    width: 100%;
+    height: 35px;
+    position: relative;
+}
+
+.title h2 {
+    padding: 0;
+    margin: 0;
+    top: 15px;
+    position: absolute;
+    width: 25%;
+    font-size: 18px;
+    letter-spacing: 2px;
+   float: left;
+    left: 38%; 
+}
+
+.title .icon_t {
+    position: absolute;
+    width: 5%;
+    min-width: 25px;
+    height: 100%;
+    top: 8px;
+    right: 10px;
+}
+
+.per {
+    width: 100%;
+    margin-top: 5px;
+
+    height: 100px;
+
+}
+
+.per_main {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    height: 90px;
+}
+
+.per_main img {
+    float: left;
+    margin-top: 10px;
+    width: 17%;
+    border-radius: 40px;
+    min-width: 60px;
+    max-width: 75px;
+
+}
+
+.per_main .user_detail {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    ;
+
+}
+
+.per_main .user_detail span {
+    margin-top: 20px;
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.per_main .user_detail .user_level {
+    font-size: 10px;
+    background-color: #E1BB23;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    margin-top: 8%;
+    border-radius: 10px;
+    max-width: 77px;
+}
+
+.per_main .core {
+    margin-top: 4%;
+    float: right;
+    background-color: #FFE67E;
+    height: 50px;
+    width: 50px;
+}
+
+.per_main .core .m {
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.per_main .core span {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    display: block;
+    color: #000;
+}
+
+.navt {
+    width: 100%;
+}
+
+.navt a {
+
+    width: 25%;
+    float: left;
+}
+
+.navt b {
+    display: block;
+    text-align: center;
+    color: #000;
+}
+
+.navt span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
+
+.bank {
+
+    width: 94%;
+    overflow: hidden;
+    /* height: 40px; */
+    margin-left: 3%;
+    margin-top: 38px;
+    background-color: #fff;
+    border-radius: 6px;
+
+}
+
+.bank ul {
+    margin: 0;
+    padding: 0;
+}
+
+.bank ul li:nth-child(1) {
+    width: 12%;
+    float: left;
+}
+
+.bank ul li:nth-child(2) {
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 50%;
+    float: left;
+}
+
+.bank ul li:nth-child(3) {
+    width: 20%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.bank ul li:nth-child(4) {
+    width: 5%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 0%;
+}
+
+.bank img {
+    width: 100%;
+    max-width: 55px;
+    margin: 6px;
+    display: block;
+    overflow: hidden;
+}
+
+.bank span {
+    color: #000;
+    width: 50%;
+    font-size: 15px;
+
+}
+
+.bank .back {
+    margin: 0;
+    width: 100%;
+    height: 18px;
+}
+
+#content {
+    width: 100%;
+}
+
+#content .serviceone {
+    margin-top: 35px;
+    width: 94%;
+    margin-left: 3%;
+    height: 125px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.serviceone_title a{
+    float: left;
+    width: 50%;
+    display: block;
+    /* border: 1px solid #000; */
+}
+.serviceone_title a:nth-child(1) span{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 8px;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.serviceone_title a:nth-child(2) span{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 20px;
+    margin-top: 8px;
+    color: #000;
+    font-weight: bold;  
+}
+.serviceone .service_content{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 12px;
+}
+.serviceone .service_content a{
+    box-sizing: border-box;
+    width:20%; 
+    float: left;
+    
+}
+.serviceone .service_icon{
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    margin-left: 28%;
+    margin-right: 28%;
+    /* background-color: #E1BB23; */
+    
+}
+.serviceone .service_content span{
+    display: block;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+#content .servicesecond {
+    overflow: hidden;
+    margin-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    /* height: 125px; */
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.servicesecond_title a>span{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-left: 8px;
+    padding-top: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.servicesecond .serviceonsecond_content{
+    width: 94%;
+    margin-left: 3%;
+    margin-bottom: 15px;
+    overflow: hidden;
+    /* border: 1px solid #000; */
+
+}
+.servicesecond .serviceonsecond_content a{
+    float: left;
+    width: 25%;
+    margin-top: 8px;
+
+}
+.servicesecond .serviceonsecond_content img{
+    width: 40%;
+    margin-left: 30%;
+}
+.servicesecond .serviceonsecond_content span{
+    display: block;
+    text-align: center;
+    font-size: 2vw; 
+    color: #666666;
+}
+
+
+
+#content .textcut{
+    margin-top: 15px;
+    width: 100%;
+    /* background-color: #fff; */
+    height: 35px;
+}
+#content .textcut ul{
+    padding: 0;
+    margin: 0;
+}
+#content .textcut ul li:nth-child(1){
+    width: 40%;
+    float: left;
+}
+#content .textcut ul li:nth-child(2){
+
+    width: 20%;
+    float: left;
+}
+#content .textcut ul li:nth-child(2) h2{
+    margin: 0;
+    text-align: center;
+    height: 5px;
+    font-size: 16px;
+    color: #000;
+}
+#content .textcut ul li:nth-child(3){
+    width: 40%; 
+    float: left;
+}
+#content .servicethird {
+    margin-top: 10px;
+    width: 94%;
+    margin-left: 3%;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    max-width: 640px;
+    min-width: 320px;
+    box-sizing: content-box;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 199;
+    border-top: 1px solid #EEE;
+    background: #FFF;
+    transition: all .2s cubic-bezier(0, 0, 1, 1.16);
+}
+
+.footer a {
+    float: left;
+    display: block;
+    width: 20%;
+}
+
+.footer a img {
+    padding-left: 26%;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.footer a span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #030303;
+    font-weight: bold;
+}
