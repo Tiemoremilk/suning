@@ -30,3 +30,124 @@
       // }
       
   }
+
+
+
+  var json=[{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+}
+,
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+}
+,
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+}
+,
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+}
+,
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+}
+,
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+},
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+}
+,
+{
+    img:"./upload/f_shouji.jpg",
+    span:"XXXXX"
+}
+];
+var mains =document.querySelector(".main");
+json.forEach(function(v,i){
+var na=document.createElement("a");
+na.innerHTML=`
+
+<img src="${v.img}">
+<span>${v.span}</span>
+`
+mains.appendChild(na);
+    
+});
